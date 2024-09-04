@@ -1,0 +1,18 @@
+.font{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    color:red;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav{
+    gap: 20px;
+}
+
+.child{
+    display: flex;
+}
